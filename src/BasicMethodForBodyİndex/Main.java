@@ -1,27 +1,21 @@
-
-package BasicMethodForBodyİndex;
-
-import java.util.Scanner;
-
 /**
  *
  * @author Furkan Aydemir, deerborg
  * @since 2024
  */
-
+package BasicMethodForBodyİndex;
+import java.util.Scanner;
 /*
     We saved time by defining the formulas within the method 
     without having to write them under any circumstances.
 
     **Review line 22**
 */
-
 public class Main {
     // Reference formula kg/m2.
     public static double bodyIndex(double weight, double length){
         return weight / (length * length);
     }
-
     public static void main(String[] args) {
         // Weight and height values ​​received from the user.
         Scanner userWeight = new Scanner(System.in);
